@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+  <arg name="launch_prefix" default=""/>
+
+  <node pkg="ard_serial_ctrl" type="ard_serial_repeater.py" name="ard_serial_repeater" output="screen" launch-prefix="$(arg launch_prefix)">
+  </node>
+
+</launch>
